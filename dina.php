@@ -132,11 +132,11 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
                                         $debug['text'] = $pesan;
                                         $debug['respon'] = json_decode($datas, true);
          setpin:
-         echo "\n".color("yellow","PASANG PIN : y/n ");
+         echo "\n".color("yellow","[✓] PASANG PIN : y/n ");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("green","▬▬▬▬▬PIN [✓] 192881[✓]▬▬▬▬▬▬▬▬")."\n";
+         echo color("red","[+] PIN GOPAY KAMU 192881 ")."\n";
          $data2 = '{"pin":"192881"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "OTP PASANG PIN: ";
