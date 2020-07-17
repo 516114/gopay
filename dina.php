@@ -3,11 +3,11 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo "\e[96m<===========SELAMAT DATANG============> \n";
+echo "\e[96m<=============🅷🅸🅻🅼🅰🆆🅰🅽 🆃🆄🅱🅴=========> \n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m         SCRIFT GOJEK 17 JULI 2020       \n";
 echo "\e[96m  ===================================== \n";
-echo "\e[93m         \e[96m BANG IWAN Versi 17JULI    \e[93m \n";
+echo "\e[93m         \e[96m AUTO CLAIM VOCHER 20K \e[93m \n";
 echo "\e[96m  =====================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
         $nama = nama();
