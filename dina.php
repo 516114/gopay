@@ -46,10 +46,10 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"83415d06-ec4e-11e6-a41b-6c40088ab51e"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
         if(strpos($verif, '"access_token"')){
-        echo color("white"," [√]BERHASIL BRO\n");
+        echo color("green"," [√]BERHASIL BRO\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
-        echo color("white","+] Your access token : ".$token."\n\n");
+        echo color("yellow","+] Akses Tokenmu : ".$token."\n\n");
         save("token.txt",$token); 
         echo color("white","\n[✓]======UPDATE 17 JULI======[✓]");
         echo "\n".color("green","VOC DUA PULUH RIBU");
