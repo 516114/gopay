@@ -5,10 +5,10 @@ ulang:
 // function change(){
 echo "\e[96m<===========SELAMAT DATANG============> \n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m[=] SUBSCRIBE YOUTUBE => HILMAWAN TUBE \n";
+echo "\e[96m         SCRIFT GOJEK 17 JULI 2020       \n";
 echo "\e[96m======================================= \n";
-echo "\e[93m     \e[96m GUNAKAN SCRIFT INI DENGAN BIJAK  \e[93m \n";
-echo "\e[96m  ==============================================\n";
+echo "\e[93m     \e[96m HILMAWAN TUBE V17JUL     \e[93m \n";
+echo "\e[96m  =====================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
