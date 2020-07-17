@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo "\e[96m<=============🅷🅸🅻🅼🅰🆆🅰🅽 🆃🆄🅱🅴=========> \n";
+echo "\e[96m<=============🅷 🅸 🅻 🅼 🅰 🆆 🅰 🅽 🆃 🆄 🅱 🅴=========> \n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m         SCRIFT GOJEK 17 JULI 2020       \n";
 echo "\e[96m  ===================================== \n";
