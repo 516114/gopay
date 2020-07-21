@@ -5,9 +5,12 @@ ulang:
 // function change(){
 echo "\e[96m<=============🅷 🅸 🅻 🅼 🅰 🆆 🅰 🅽 🆃 🆄 🅱 🅴=========> \n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m         SCRIFT GOJEK 17 JULI 2020       \n";
+echo "\e[96m         SCRIFT GOJEK 21 JULI       \n";
 echo "\e[96m  ===================================== \n";
-echo "\e[93m         \e[96m AUTO CLAIM VOCHER 20K \e[93m \n";
+echo "\e[96m      BRO KALAU SAMA CUAN JANGAN PELIT DONG    \n";
+echo "\e[96m      MENERIMA DONASI GOPAY/DANA 085796711394    \n";
+echo "\e[96m  =====================================\n";
+echo "\e[93m       \e[96m AUTO CLAIM VOCHER 20K \e[93m \n";
 echo "\e[96m  =====================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
         $nama = nama();
@@ -51,14 +54,14 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
-        echo color("yellow","\n============UPDATE 17 JULI===========");
+        echo color("yellow","\n===========UPDATE 21 JULI=============");
         echo "\n".color("green","[Food] VOC DUA PULUH RIBU");
         echo "\n".color("yellow"," SabarYa");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(35);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0607"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","Message: ".$message);
@@ -157,7 +160,7 @@ echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          goto otp;
          }
          }else{
-         echo color("yellow","[!]NOMOR SALAH ATAU GAK FRESH INGET WAJIB FRESH!");
+         echo color("red","[!]NOMOR SALAH ATAU GAK FRESH INGET WAJIB FRESH!");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
          echo color("green"," [×] PASTIKAN SUDAH MENGGUNAKAN FAKE GPS\n");
          goto ulang;
