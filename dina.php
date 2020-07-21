@@ -7,8 +7,8 @@ echo "\e[96m<=============🅷 🅸 🅻 🅼 🅰 🆆 🅰 🅽 🆃 🆄 🅱
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m         SCRIFT GOJEK 21 JULI       \n";
 echo "\e[96m  ===================================== \n";
-echo "\e[96m  BRO KALAU SAMA CUAN JANGAN PELIT DONG    \n";
-echo "\e[96m  MENERIMA DONASI GOPAY/DANA 085796711394    \n";
+echo "\e[96m[+]BRO KALAU SAMA CUAN JANGAN PELIT DONG    \n";
+echo "\e[96m MENERIMA DONASI GOPAY/DANA 085796711394    \n";
 echo "\e[96m  =====================================\n";
 echo "\e[93m       \e[96m AUTO CLAIM VOCHER 20K \e[93m \n";
 echo "\e[96m  =====================================\n";
